@@ -8,7 +8,7 @@ public class Main {
         int[] numbers = new int[10];
         Random random = new Random();
         for (int i = 0; i < numbers.length; i++) {
-            // заполняем каждый элемент случайным числом от 0 до 99
+            // заполняем каждый элемент случайным числом от 0 до 19
             numbers[i] = random.nextInt(19);
         }
         int closestToTen = findClosestToTen(numbers);
